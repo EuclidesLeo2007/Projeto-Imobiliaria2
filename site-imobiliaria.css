@@ -1,0 +1,147 @@
+header {
+    padding: 25px;
+    background-color: #87b091;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+header img {
+    width: 120px;
+}
+
+header h1 {
+    display: flex;
+    align-items: center;
+    color: #171430;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 80px;
+    right: 100px;
+    font-weight: 600;
+}
+
+.list-menu ul {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.list-menu ul li {
+    list-style: none;
+}
+
+.list-menu ul li a {
+    text-decoration: none;
+    color: #171430;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* FIM DO CABEÇALHO */
+
+/* INICIO PRIMEIRA SESSÃO */
+.sessao1 {
+    padding: 250px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-image: url(IMAGENS/002_d8b12b0012.jpg);
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.sessao1 button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 20px;
+    width: 220px;
+    height: 30px;
+    background-color:#87b091cc;
+    display: flex;
+    justify-content: center;
+    border: none;
+    align-items: center;
+
+
+}
+
+/* FIM PRIMEIRA SESSÃO */
+
+
+/* INICIO SEGUNDA SESSÃO */
+
+.sessao2 {
+    padding: 100px;
+    background-color:#c4d4ab ;
+    display: flex;
+    gap: 15px;
+    justify-content: space-evenly;
+}
+
+.sessao2 div {
+    width: 300px;
+    height: 300px;
+    background-color:#171430 ;
+    color:#eff0d5 ;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.div-02 h2 {
+    color: #171430;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.div-02 {
+    background-image: url(IMAGENS/300x300.jpg);
+    background-size: cover;
+}
+
+.div-03 {
+    width: 100px;
+    height: 100px;
+}
+
+.div-03 p {
+    font-size: 17px;
+    color:#eff0d5 ;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+
+.sessao3 {
+    background-color: #171430;
+    padding: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:60px ;
+    
+}
+
+.sessao3 span {
+    color: #87b091;
+    font-size: 45px;
+}
+
+
+.sessao3 img {
+    width: 400px;
+    height: 500px;
+}
+
+.sessao3 p {
+    color:#eff0d5;
+    
+}
