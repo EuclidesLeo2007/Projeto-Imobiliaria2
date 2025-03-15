@@ -3,7 +3,7 @@ header {
     background-color: #87b091;
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 40px;
     align-items: center;
 }
 
@@ -15,7 +15,7 @@ header h1 {
     display: flex;
     align-items: center;
     color: #171430;
-    font-size: 40px;
+    font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     height: 80px;
     right: 100px;
@@ -63,12 +63,12 @@ header h1 {
     padding: 20px;
     width: 220px;
     height: 30px;
-    background-color:#87b091cc;
+    background-color: #87b091cc;
     display: flex;
     justify-content: center;
     border: none;
     align-items: center;
-
+    font-size: 15px;
 
 }
 
@@ -79,7 +79,7 @@ header h1 {
 
 .sessao2 {
     padding: 100px;
-    background-color:#c4d4ab ;
+    background-color: #c4d4ab;
     display: flex;
     gap: 15px;
     justify-content: space-evenly;
@@ -88,13 +88,14 @@ header h1 {
 .sessao2 div {
     width: 300px;
     height: 300px;
-    background-color:#171430 ;
-    color:#eff0d5 ;
+    background-color: #171430;
+    color: #eff0d5;
     text-align: center;
     padding: 15px;
     font-weight: 600;
     line-height: 25px;
 }
+
 
 .div-02 h2 {
     color: #171430;
@@ -114,25 +115,35 @@ header h1 {
 
 .div-03 p {
     font-size: 17px;
-    color:#eff0d5 ;
+    color: #eff0d5;
     font-weight: 600;
     line-height: 25px;
 }
 
 
+/* FIM DA SEGUNDA SESSÃO */
+
+
+/* INICIO DA TERCEIRA SESSÃO */
 .sessao3 {
     background-color: #171430;
-    padding: 160px;
+    padding: 140px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:60px ;
-    
+    gap: 60px;
+   
+}
+
+.sessao3 div img {
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
 }
 
 .sessao3 span {
     color: #87b091;
-    font-size: 45px;
+    font-size: 37px;
 }
 
 
@@ -142,6 +153,66 @@ header h1 {
 }
 
 .sessao3 p {
-    color:#eff0d5;
+    font-size: 27px;
+    color: #eff0d5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+/* FIM DA TERCEIRA SESSÃO */
+
+
+/* INICIO DA QUARTA SESSÃO */
+.sessao4 {
+    background-color: #87b091;
+    display: flex;
+    align-items: center;
+    padding: 120px;
+    gap: 30px;
+    text-align: center;
     
 }
+
+.sessao4 p {
+    background-color: #17143042;
+    padding: 15px;
+    font-size: 28px;
+    color: #171430;
+    text-align: center;
+   
+}
+
+.sessao4 iframe {
+    border-radius: 15px;
+    width: 500px;
+}
+
+
+
+/* INICO DO RODAPÉ */
+footer {
+    padding: 7px;
+    background-color: #171430;
+    text-align: center;
+    height: 185px;
+    line-height: 10px;
+}
+
+footer h3 {
+    font-size: 25px;
+    color: #eff0d5;
+}
+
+footer p {
+    color: #eff0d5;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer img {
+    width: 65px;
+}
+
+/* FIM DO RODAPÉ */
