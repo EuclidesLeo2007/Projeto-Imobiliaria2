@@ -14,7 +14,7 @@
 <body>
 
     <!-- CABEÇALHO DA PAGÍNA -->
-    <header>
+    <header id="cabecalho">
         <div>
             <img src="IMAGENS/home-address.png" alt="icone de casa">
         </div>
@@ -26,15 +26,19 @@
         <div class="list-menu">
             <ul>
                 <li>
-                    <a href="">HOME</a>
+                    <a href="#sessao1">IMÓVEIS</a>
                 </li>
 
                 <li>
-                    <a href="">IMÓVEIS</a>
+                    <a href="#sessao2">AVALIAÇÃO</a>
                 </li>
 
                 <li>
-                    <a href="">CONTATO</a>
+                    <a href="#sessao3">SOBRE NÓS</a>
+                </li>
+
+                <li>
+                    <a href="#sessao4">LOCALIZAÇÃO</a>
                 </li>
             </ul>
         </div>
@@ -43,7 +47,7 @@
 
     <main>
         <!-- PRIMEIRA SESSÃO -->
-        <section class="sessao1">
+        <section class="sessao1" id="sessao1">
             <!-- BACKGROUND IMAGE NO CSS -->
             <img src="" alt="">
 
@@ -53,8 +57,8 @@
 
         <!-- SEGUNDA SESSÃO -->
 
-        <section class="sessao2">
-            <div class="div-01">
+        <section class="sessao2" id="sessao2">
+            <div class="div-01 avaliacao-1">
                 <!-- COLOCAR UM TITULO REFERENTE AO TEMA DO SITE -->
                 <h2>AVALIAÇÃO</h2>
                 <!-- COLOCAR UM TEXTO REFERENTE AO SITE -->
@@ -71,12 +75,13 @@
             </div>
 
 
-            <div class="div-02">
+            <div class="div-02 sugestoes">
+                <!-- Classes secundarias inseridas -->
                 <h2>SUGESTÕES:</h2>
             </div>
 
 
-            <div class="div-03">
+            <div class="div-03 avaliacao-2">
                 <h2>AVALIAÇÃO</h2>
                 <p>Gostaria de agradecer aos corretores pelo excelente atendimento. Sua dedicação, profissionalismo e
                     atenção aos detalhes fizeram toda a diferença. Muito obrigado pelo suporte e pela ótima experiência!
@@ -92,7 +97,7 @@
 
 
         <!-- TERCEIRA SESSÃO -->
-        <section class="sessao3">
+        <section class="sessao3" id="sessao3">
             <div class="div-10">
             <p>Na <span>JK IMOBILIÁRIA</span>, o conforto é nossa prioridade. Temos casas com ambientes pensados para proporcionar a você momentos de relaxamento e tranquilidade, com qualidade e praticidade em cada detalhe. Descubra o prazer de viver bem!</p>
             </div>
@@ -105,7 +110,7 @@
 
 
         <!-- QUARTA SESSÃO -->
-        <section class="sessao4">
+        <section class="sessao4" id="sessao4">
             <div>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d937589.5201897532!2d-47.7392247509006!3d-23.371604505813327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5fcb2f9f4b5f%3A0x56e65e5834447e41!2sJK%20IMOBILIARIA!5e0!3m2!1spt-BR!2sbr!4v1742336981336!5m2!1spt-BR!2sbr" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>>
             </div>
@@ -124,6 +129,10 @@
         <p>TODOS OS DIREITOS RESERVADOS</p>
         <p>2025&COPY;Copy</p>
         <img src="IMAGENS/home-address.png" alt="icone de casa">
+
+        <a href="#cabecalho">
+            Volte ao topo da Pagina
+        </a>
     </footer>
 
 </body>

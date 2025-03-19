@@ -1,3 +1,12 @@
+* {
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+    scroll-behavior: smooth; /*Scroll Suave nas transições*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
 header {
     padding: 25px;
     background-color: #87b091;
