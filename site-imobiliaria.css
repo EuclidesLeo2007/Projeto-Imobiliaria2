@@ -49,6 +49,15 @@ header h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+
+.list-menu ul li a:hover {
+    color: rgb(163, 10, 10);
+    transition: 0,8s;
+}
+
+
+
+
 /* FIM DO CABEÇALHO */
 
 /* INICIO PRIMEIRA SESSÃO */
@@ -79,9 +88,13 @@ header h1 {
     align-items: center;
     font-size: 15px;
    text-decoration: none;
-
 }
 
+.button:hover {
+    background-color: #171430;
+    color: #c4d4ab;
+    transition: 0,8s;
+}
 /* FIM PRIMEIRA SESSÃO */
 
 
@@ -226,3 +239,14 @@ footer img {
 }
 
 /* FIM DO RODAPÉ */
+
+
+/* PAGINA 2 */
+.div-pai {
+
+
+
+}
+
+
+
