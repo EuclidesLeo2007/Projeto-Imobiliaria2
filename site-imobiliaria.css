@@ -242,11 +242,26 @@ footer img {
 
 
 /* PAGINA 2 */
-.div-pai {
-
-
+.sessao01 {
+    padding: 200px;
+    background-color: #c4d4ab;
+    display: flex;
+    gap: 15px;
+    justify-content: space-evenly;
 
 }
+
+.sessao01 div {
+    width: 300px;
+    height: 300px;
+}
+
+
+    
+
+
+
+
 
 
 
