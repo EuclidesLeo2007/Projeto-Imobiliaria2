@@ -242,22 +242,26 @@ footer img {
 
 
 /* PAGINA 2 */
-.sessao01 {
-    padding: 200px;
-    background-color: #c4d4ab;
-    display: flex;
-    gap: 15px;
-    justify-content: space-evenly;
-
+.div-pai div {
+    width: 400px;
+    height: 400px;
+    background-color: #171430;
+    border-radius: 15px;
+box-shadow: 10px 10px 20px #eff0d5
 }
 
-.sessao01 div {
-    width: 300px;
-    height: 300px;
+.div-pai div:hover {
+    transition: 0,08s;
+    box-shadow: 20px 20px 30px #eff0d5
 }
 
-
-    
+.div-pai p {
+    color: #eff0d5;
+    font-size: 27px;
+    font-weight: 600;
+   margin: 15px;
+   line-height: 25px;
+}
 
 
 
