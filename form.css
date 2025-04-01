@@ -20,7 +20,7 @@ body {
     border-radius: 10px;
     box-shadow: 10px 10px 20px black;
     width: 300px;
-    height: 340px
+    height: 380px
 }
 
 form {
@@ -29,34 +29,58 @@ form {
 }
 
 label {
-    margin-bottom: 5px; /*Margem Inferior*/
-    font-weight: bold; /*Largura da Fonte*/
+    margin-bottom: 5px;
+    /*Margem Inferior*/
+    font-weight: bold;
+    /*Largura da Fonte*/
 }
 
+/*input [type="email"], input [type="password"] {
+background-color: rbg(12, 171, 20);
+} */
+
 .dombosco {
-    padding: 10px; /*Espaçamento interno*/
-    margin-bottom: 15px; /*Espaçamento inferior dos input*/
-    font-size: 16px; /*Tamanho da letra*/
-    border-radius: 5px; /*Bordas Arredondadas*/
-   border: 2px solid #171430; /*Inserindo bordas nos Input*/
-} 
+    padding: 10px;
+    /*Espaçamento interno*/
+    margin-bottom: 15px;
+    /*Espaçamento inferior dos input*/
+    font-size: 16px;
+    /*Tamanho da letra*/
+    border-radius: 5px;
+    /*Bordas Arredondadas*/
+    border: 2px solid #171430;
+    /*Inserindo bordas nos Input*/
+}
 
 .btn-form {
-    background-color: #171430; /*cor de fundo do bnt*/
-    padding: 10px; /*Espaçamento interno*/
-    border: none; /*border = nenhuma/sem borda*/
-    border-radius: 5px; /*Arredondamento do bnt*/
-    font-size: 16px; /*Tamanho da letra*/
-    cursor: pointer; /*Tipo de cursor do mouse*/
-    color: #c4d4ab /*cor da letra*/
+    background-color: #171430;
+    /*cor de fundo do bnt*/
+    padding: 10px;
+    /*Espaçamento interno*/
+    border: none;
+    /*border = nenhuma/sem borda*/
+    border-radius: 5px;
+    /*Arredondamento do bnt*/
+    font-size: 16px;
+    /*Tamanho da letra*/
+    cursor: pointer;
+    /*Tipo de cursor do mouse*/
+    color: #c4d4ab
+        /*cor da letra*/
 }
 
 .btn-form:hover {
-background-color: #c4d4ab; /*Background ao passar o mouse*/
-transition: 0,08s; /*Transição*/
-color: #171430;
+    background-color: #c4d4ab;
+    /*Background ao passar o mouse*/
+    transition: 0,08s;
+    /*Transição*/
+    color: #171430;
 }
 
-h2, p {
-
+h2,
+p {
+    margin-bottom: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-align: center;
 }
