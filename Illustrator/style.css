@@ -1,6 +1,6 @@
-* {
-padding: 0;
-margin: 0;
+0* {
+    padding: 0;
+    margin: 0;
 }
 
 header {
@@ -26,8 +26,8 @@ header button {
 }
 
 header button:hover {
-  background-color: rgb(6, 102, 11);
-    transition: 0,08s;
+    background-color: rgb(6, 102, 11);
+    transition: 0, 08s;
     cursor: pointer;
     border-radius: 5px;
 }
@@ -35,10 +35,12 @@ header button:hover {
 /*background: linear-gradiente(180deg, #0c16a364 8.33%, rgba(5, 39, 101, 0. 745) 100%, url(imagens/...):*/
 
 .section-01 {
-    background-image: url(camera-1840054_1280.jpg);
+    /* SITE PARA DEGRADE DE CORES: https://cssgradient.io/ */
+
+    background: linear-gradient(180deg, rgba(0, 36, 2, 1) 0%, rgba(10, 105, 12, 0.418) 100%), url(camera-1840054_1280.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 
-    padding: 200px;
+    padding: 250px;
 }
